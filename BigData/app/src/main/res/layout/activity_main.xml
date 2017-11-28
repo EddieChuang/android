@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.eddie.bigdata.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/center"
+            android:layout_width="55dp"
+            android:layout_height="52dp"
+            app:srcCompat="@mipmap/ic_launcher_round" />
+
+        <ImageButton
+            android:id="@+id/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@android:drawable/ic_menu_camera" />
+
+        <EditText
+            android:id="@+id/searchProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.17"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="落建" />
+
+        <SearchView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+</LinearLayout>
